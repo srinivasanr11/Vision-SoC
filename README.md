@@ -51,7 +51,7 @@ This project aims to enhance low-resolution images using deep learning technique
 1. Navigate to the repository directory.
 2. Start the Flask app:
    ```bash
-   python app.py
+   python test.py
    ```
 3. Open your browser and go to `http://localhost:5000` to access the application.
 4. Upload an image and click 'Enhance' to see the output.
@@ -67,7 +67,7 @@ python interpolate_models.py 0.5  # Replace with desired alpha value (0.0 to 1.0
 
 - `models/`: Contains pretrained models for PSNR and ESRGAN.
 - `LR/`: Directory for low-resolution images used for testing.
-- `app.py`: Flask web application for image enhancement.
+- `test.py`: Flask web application for image enhancement.
 - `interpolate_models.py`: Script to interpolate between PSNR and ESRGAN models.
 - `README.md`: This file.
 
